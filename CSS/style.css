@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ .navbar{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+.container{
+    background-color: chartreuse;
+}
+
+ .navbar a{
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+    margin-right: 40px; 
+    width:10px;
+
+} 
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.section1{
+    
+    height: 500px;
+    background-image: url(../res/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg);
+    background-size: cover; 
+
+}
+
+.section2{
+    height: 500px;
+}
+
+    .calibre{
+        font-size: arial 0vmin;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        font-weight: lighter;
+        color: rgb(19, 15, 15);
+        font-family: monospace
+    }
+
+.imgs{
+    height: 250px;
+    margin-top: 30px;
+    display:flex;
+    margin-left: 320px;
+}
+
+.imgs img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.view{
+    margin-left: 47%;
+    padding-bottom: 50px;
+}
+
+hr{
+    margin-top: 40px;
+}
+.section3 {
+    
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+
+.section22{
+    height: max-content;
+}
+#case{
+    width: 400px;
+    height: 60px;
+    -backgroundcolor: white;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    
+    
+}
+.bodycour{background-color:brown  ;
+
+}
+
+.section7 {
+    width: 500px;
+    height: 100px;
+    color:white;
+    margin-left: 500px;
+    font-family: monospace;
+}
+#fed{
+    color: thistle;
+    font-size: 50px;
+ 
+}
+
+
+.section8{
+    width: 50%;
+    height: 50px;
+    margin-left: 400px;
+
+
+}
+.button{
+    font-size: 30px;
+}
+.select-button1{
+        font-size:30px;
+        
+        
+    }
+.select-button2{
+          font-size:30px;
+          }
+.section10,.sectionw{
+    height: 500px;
+    background-image:url(../res/nv%20photo.jpeg);
+    background-size: cover;
+}          
+.heading{
+    color: white;
+    font-size: 81px;
+    padding-top: 20%;   
+    margin-left:44% ;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+label{
+
+display: inline-block;
+max-width: 100%;
+margin-bottom : 5px;
+font-size: 14px;
+color:white;}
+* {box-sizing: border-box;
+font-family: helvetica;}
+.form-control{
+    border-radius: 10px;
+    display: block;
+width: 300px;
+height: 60px;
+padding:12px;
+font-size: 25px;
+color: #000;
+border: solid;}
+.bodycontact{
+    background-image:linear-gradient(to right, red, black);
+}
+.ptcase{
+    border-radius:10px;
+    background-color:blue;
+    color: white;
+    width: 150px;
+    height: 60px;
+
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: goldenrod;
+    color:white;
+    text-align: center;
+}
+.section4 iframe{
+    width: 100%;
+ text-align: center;
+}
+
+   
+       
+    
+     @media only screen and  (max-width: 411px){
+       
+       .navbar {
+            width: 100%;
+    
+          float: none;
+          
+       }
+        .navbar a{
+            display:block;
+            font-size: 20px;
+        margin: auto;
+
+         }  
+        
+         .logo {width: 20px;
+            height: 20px;
+
+         }
+        
+
+        
+        .section1{
+            
+            width:100%; 
+            height: 100px;
+            
+        } 
+        .heading{
+            font-size: 40px;
+            padding-top: 40px;
+        }
+        .section2{
+        
+            width: 100%;
+            height: 600px;
+            
+            }
+        .imgs{
+            height: 90%;
+            width: 250px;
+            margin-left:0px ;
+            display: inline;
+          }
+          .imgs img{
+              height: 150px;
+              width: 150px;
+              flex-wrap: wrap;
+          }
+      
+        .view,.section3,.section4{
+             width: 100%;
+          margin-top:30%;
+          margin-left: 10px;
+        }
+        .section22{
+            display:block;
+        }
+        .section7{height: 10px;}
+        .section7,.section8{
+            margin-top:40px;
+            margin-left: 0px;
+         }
+         #fed{
+             margin-bottom:10px;
+         }
+         #case{margin-left: 0px;}
+         
+    }
+    
+ 
+
+   
